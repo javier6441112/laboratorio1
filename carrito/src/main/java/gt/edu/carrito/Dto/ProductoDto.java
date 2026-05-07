@@ -4,17 +4,17 @@ import java.math.BigDecimal;
 
 public class ProductoDto {
 
-    private int idProducto;
+    private Integer idProducto;
     private String nombre;
     private String descripcion;
     private BigDecimal precio;
-    private int stock;
+    private Integer stock;
 
     // Constructors
     public ProductoDto() {
     }
 
-    public ProductoDto(int idProducto, String nombre, String descripcion, BigDecimal precio, int stock) {
+    public ProductoDto(Integer idProducto, String nombre, String descripcion, BigDecimal precio, Integer stock) {
         this.idProducto = idProducto;
         this.nombre = nombre;
         this.descripcion = descripcion;
@@ -23,11 +23,11 @@ public class ProductoDto {
     }
 
     // Getters and Setters
-    public int getIdProducto() {
+    public Integer getIdProducto() {
         return idProducto;
     }
 
-    public void setIdProducto(int idProducto) {
+    public void setIdProducto(Integer idProducto) {
         this.idProducto = idProducto;
     }
 
@@ -55,11 +55,11 @@ public class ProductoDto {
         this.precio = precio;
     }
 
-    public int getStock() {
+    public Integer getStock() {
         return stock;
     }
 
-    public void setStock(int stock) {
+    public void setStock(Integer stock) {
         this.stock = stock;
     }
 }
